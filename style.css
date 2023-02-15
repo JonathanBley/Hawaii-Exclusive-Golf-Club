@@ -1,0 +1,289 @@
+/* Section Header */
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.navbar{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: black;
+    color: white;
+}
+
+.navbar .logo{
+    font-family: Dancing Script;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.navbar.logo:hover{
+    cursor: pointer;
+}
+
+.navbar .nav{
+    font-family: PT Sans Narrow;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 30px;
+    color: white;
+}
+
+.navbar .nav_right1{
+    font-family: PT Sans Narrow;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 750px;
+    padding-right: 40px;
+    color: black;
+}
+
+.navbar .nav_right2{
+    font-family: PT Sans Narrow;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 30px;
+    padding-right: 40px;
+    color: white;
+}
+
+.navbar .nav_right3{
+    font-family: PT Sans Narrow;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 0px;
+    padding-right: 10px;
+    color: white;
+}
+
+/* Section Welcome */
+
+.welcome{
+    display: flex;
+    height: 600px;
+    background-image: url("pics/edwin-compton-Z8XlmAj65iM-unsplash.jpg");
+    background-size: 100%;
+    padding-top: 35px;
+}
+
+.text{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    font-family: Raleway;
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    font-size: 22px;
+    color: white;
+    /*background-color: rgb(28, 92, 27);*/
+}
+
+.text p{
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: Raleway;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.text p:hover{
+    cursor: pointer;
+}
+
+/* Section Welcome */
+
+.text2 h2{
+    font-size: 50px;
+    font-family: PT Sans Narrow;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.text2 h4{
+    font-size: 20px;
+    font-family: PT Sans Narrow;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Section Course */
+
+.images{
+    padding-bottom: 700px;
+}
+
+.image1 img{
+    width: 400px;
+    float: left;
+    height: 700px;
+
+}
+
+.image2 img{
+    width: 620px;
+    height: 700px;
+    float: left;
+
+}
+
+/* Section Pro */
+
+.text3 h2{
+    font-size: 50px;
+    font-family: PT Sans Narrow;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.text3 h4{
+    font-size: 20px;
+    font-family: PT Sans Narrow;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.image_section{
+    background-image: url("pics/pro membership.jpg");
+    background-size: 100%;
+    height: 500px;
+    width: 1300px;
+    margin-left: 60px;
+    
+}
+
+.button{
+    border: 2px solid white;
+    border-radius: 4px;
+    color: black;
+    padding: 18px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    font-family: Raleway;
+    font-style: italic;
+    font-weight: 400;
+    background-color: white;
+    margin-left: 1032px;
+    margin-top: 400px;
+}
+
+.button:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Section Events */
+
+#Events h2{
+    font-size: 50px;
+    font-family: PT Sans Narrow;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.event h3{
+    font-size: 30px;
+    font-family: PT Sans Narrow;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 68px;
+}
+
+.event .text4{
+    font-size: 15px;
+    font-family: PT Sans Narrow;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    display: block;
+    margin-left: 75px;
+}
+
+.events_section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:baseline;
+}
+
+div.event{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+
+.event img{
+    width: 350px;
+    height: 200px;
+    padding: auto;
+    display: block;
+    margin: auto;
+    padding-left: 60px;
+}
+
+#break1::before{
+    content: "\A";
+    white-space: pre;
+}
+
+.break1{
+    font-size: 15px;
+    font-family: PT Sans Narrow;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    display: block;
+    margin-left: 72px;
+}
+
+.event h3:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Section Contact */
+
+#Contact h2{
+    font-size: 50px;
+    font-family: PT Sans Narrow;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#Contact h5{
+    font-size: 20px;
+    font-family: PT Sans Narrow;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Section Footer */
+
+.footer{
+    border: 1px solid white;
+}
+
+.footer .copyright{
+    font-family: PT Sans Narrow;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    float: left;
+    padding-left: 15px;
+}
+
+.footer .location{
+    font-family: PT Sans Narrow;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    float: right;
+    padding-right: 15px;
+}
